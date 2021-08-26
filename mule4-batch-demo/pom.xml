@@ -95,5 +95,31 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+    <repositories>
+    <!-- Copy this section from the Maven section of the "Connect to Feed" dialog" -->
+      <repository>
+         <id>nazeerp20</id>
+         <url>https://pkgs.dev.azure.com/nazeerp20/_packaging/nazeerp20/maven/v1</url>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+   </repositories>
+   <distributionManagement>
+    <!-- Copy this section from the Maven section of the "Connect to Feed" dialog" -->
+      <repository>
+         <id>nazeerp20</id>
+         <url>https://pkgs.dev.azure.com/nazeerp20/_packaging/nazeerp20/maven/v1</url>
+         <releases>
+            <enabled>true</enabled>
+         </releases>
+         <snapshots>
+            <enabled>true</enabled>
+         </snapshots>
+      </repository>
+   </distributionManagement>
 
 </project>
